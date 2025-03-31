@@ -1,8 +1,6 @@
-# game.py
+import pygame
 
 import random
-import pygame
-import sys
 from code.const import WIN_X, WIN_Y
 
 # Inicialização do Pygame
@@ -115,4 +113,4 @@ def start_game(menu):
         pygame.display.update()
 
     # Após o jogo terminar, voltar para o menu
-    menu()  # Chama a função do menu após o jogo terminar
+    menu()

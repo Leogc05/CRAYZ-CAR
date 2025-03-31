@@ -1,7 +1,7 @@
 import pygame
 import sys
 from code.const import COLOR_BLACK, COLOR_WHITE, COLOR_GREEN
-from code.game import start_game  # Importa a função de iniciar o jogo (sem depender de 'running')
+from code.game import start_game
 
 # Inicializar o Pygame
 pygame.init()
@@ -44,7 +44,6 @@ def draw_menu(mouse_x, mouse_y):
 
     pygame.display.update()
 
-# Função para executar o menu
 # Função para executar o menu
 def menu():
     running_menu = True

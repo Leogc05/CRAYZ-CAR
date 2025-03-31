@@ -1,11 +1,9 @@
 import pygame
-import sys
-from code.menu import menu  # Importa a função do menu
+from code.menu import menu
 
 def main():
     pygame.init()
 
-    # Chama a função do menu
     menu()
 
 if __name__ == "__main__":
